@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Polityka prywatności - Daygauge</title>
+</head>
+<body>
+  <h1>Polityka prywatności aplikacji Daygauge</h1>
+  <p>Aplikacja <strong>Daygauge</strong> nie zbiera danych osobowych użytkowników w celach komercyjnych.  
+  Zbieramy jedynie nieosobowe informacje, takie jak anonimowe logi błędów i identyfikatory urządzenia,  
+  wyłącznie w celu poprawy działania aplikacji.</p>
+
+  <p>Nie udostępniamy danych użytkowników osobom trzecim.  
+  Wszelkie dane są przechowywane lokalnie w aplikacji lub w anonimowej formie na serwerach analitycznych.</p>
+
+  <p>Jeśli masz pytania dotyczące prywatności, skontaktuj się z nami pod adresem e-mail:  
+  <a href="mailto:wargohdenhan@gmail.com">pamfunstudio@example.com</a></p>
+</body>
+</html>
