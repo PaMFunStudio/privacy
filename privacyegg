@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polityka Prywatności - [NAZWA TWOJEJ GRY]</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; }
+        p, li { font-size: 16px; }
+        .footer { margin-top: 50px; font-size: 14px; color: #7f8c8d; text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
+        .highlight { background-color: #e8f4fd; padding: 15px; border-left: 5px solid #2980b9; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Polityka Prywatności</h1>
+    <p>Ostatnia aktualizacja: <strong>[5.01.2026]</strong></p>
+
+    <p>Niniejsza polityka prywatności określa zasady przetwarzania danych w grze mobilnej <strong>[Egg Clicker]</strong> (dalej: "Aplikacja").</p>
+
+    <h2>1. Administrator Danych</h2>
+    <p>Administratorem danych jest: <br>
+    <strong>[Paweł Mrozowski]</strong><br>
+    E-mail kontaktowy: <a href="mailto:[wargohdenhan@gmail.com]">[wargohdenhan@gmail.com]</a></p>
+
+    <h2>2. Zakres zbieranych danych</h2>
+    <p>Aplikacja zbiera tylko dane niezbędne do poprawnego działania gry oraz obsługi płatności:</p>
+    <ul>
+        <li><strong>Dane urządzenia:</strong> Identyfikator reklamowy (np. AAID w systemie Android), model urządzenia, wersja systemu.</li>
+        <li><strong>Dane o zakupach:</strong> Informacje o zakupionych kryształach, statusie transakcji i historii zakupów.</li>
+        <li><strong>Postęp gry:</strong> Zapisane stany gry, liczba zgromadzonych surowców i osiągnięcia.</li>
+    </ul>
+
+    <div class="highlight">
+        <h2>3. Realizacja płatności (RevenueCat)</h2>
+        <p>W naszej grze korzystamy z usługi <strong>RevenueCat</strong> w celu zarządzania zakupami wewnątrz aplikacji (Kryształy). </p>
+        <ul>
+            <li>RevenueCat przetwarza dane dotyczące transakcji w celu zapewnienia, że zakupione przedmioty trafią na Twoje konto.</li>
+            <li>Dane te są anonimizowane i nie obejmują numerów kart płatniczych.</li>
+            <li>Wszystkie transakcje finansowe są finalizowane przez system <strong>Google Play Billing</strong>.</li>
+        </ul>
+        <p>Polityka prywatności RevenueCat jest dostępna pod adresem: <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></p>
+    </div>
+
+    <h2>4. Wykorzystanie danych</h2>
+    <p>Dane są przetwarzane wyłącznie w celu:</p>
+    <ul>
+        <li>Umożliwienia rozgrywki i zapisywania postępów gracza.</li>
+        <li>Weryfikacji i realizacji zakupów wirtualnych walut.</li>
+        <li>Zapewnienia bezpieczeństwa i zapobiegania oszustwom.</li>
+    </ul>
+
+    <h2>5. Prawa Użytkownika</h2>
+    <p>Zgodnie z przepisami RODO oraz polityką Google Play, masz prawo do:</p>
+    <ul>
+        <li>Wglądu w swoje dane oraz otrzymania ich kopii.</li>
+        <li>Żądania usunięcia swoich danych (co wiąże się z utratą postępu w grze).</li>
+        <li>Wniesienia sprzeciwu wobec przetwarzania danych.</li>
+    </ul>
+
+    <h2>6. Kontakt</h2>
+    <p>W przypadku jakichkolwiek pytań dotyczących prywatności, prosimy o kontakt pod adresem: <strong>[TWÓJ E-MAIL]</strong>.</p>
+
+    <div class="footer">
+        &copy; [ROK] [NAZWA TWOJEJ GRY] | Stworzono na potrzeby publikacji w Google Play Store
+    </div>
+</div>
+
+</body>
+</html>
