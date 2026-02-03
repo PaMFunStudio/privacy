@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - FreeGraffa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #ccc;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid #333;
+        }
+        h1, h2 {
+            color: #00ff88;
+            text-transform: uppercase;
+        }
+        h1 { border-bottom: 2px solid #00ff88; padding-bottom: 10px; font-size: 24px; }
+        h2 { font-size: 18px; margin-top: 30px; }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: 0.3s;
+        }
+        .btn.active { background: #00ff88; color: #000; font-weight: bold; }
+        .content-section { display: none; }
+        .content-section.active { display: block; }
+        a { color: #00ff88; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="lang-switch">
+        <button class="btn active" onclick="showLang('pl', this)">Polski</button>
+        <button class="btn" onclick="showLang('en', this)">English</button>
+    </div>
+
+    <div id="pl" class="content-section active">
+        <h1>Polityka Prywatności</h1>
+        <p>Ostatnia aktualizacja: 3 lutego 2026 r.</p>
+
+        <h2>1. Informacje ogólne</h2>
+        <p>Aplikacja FreeGraffa szanuje prywatność swoich użytkowników. Niniejsza polityka wyjaśnia, w jaki sposób traktujemy dane wewnątrz aplikacji.</p>
+
+        <h2>2. Gromadzenie danych</h2>
+        <p>FreeGraffa <strong>nie wymaga zakładania konta</strong> ani podawania danych osobowych (takich jak imię, nazwisko czy e-mail). Wszystkie Twoje preferencje, takie jak polubione grafiki czy ostatnio wybrana kategoria, są przechowywane <strong>lokalnie na Twoim urządzeniu</strong> (Local Storage).</p>
+
+        <h2>3. Usługi stron trzecich</h2>
+        <p>Aplikacja korzysta z zewnętrznych dostawców usług, którzy mogą gromadzić dane służące do identyfikacji użytkownika:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> Wyświetlanie reklam (w tym reklam z nagrodą). AdMob może zbierać identyfikatory reklamowe urządzenia w celu personalizacji treści.</li>
+            <li><strong>Firebase:</strong> Wykorzystywany do dostarczania treści (grafik i wideo) w czasie rzeczywistym.</li>
+        </ul>
+
+        <h2>4. Przechowywanie plików</h2>
+        <p>Aplikacja prosi o dostęp do pamięci urządzenia wyłącznie w celu zapisania pobranych plików (obrazy JPG i wideo MP4) w folderze Dokumenty.</p>
+
+        <h2>5. Kontakt</h2>
+        <p>Jeśli masz jakiekolwiek pytania dotyczące niniejszej polityki lub działania aplikacji, możesz skontaktować się z nami pod adresem e-mail:</p>
+        <p><a href="mailto:wargohdenhan@gmail.com">wargohdenhan@gmail.com</a></p>
+
+        <h2>6. Zgoda</h2>
+        <p>Korzystając z aplikacji FreeGraffa, wyrażasz zgodę na postanowienia niniejszej Polityki Prywatności.</p>
+    </div>
+
+    <div id="en" class="content-section">
+        <h1>Privacy Policy</h1>
+        <p>Last updated: February 3, 2026</p>
+
+        <h2>1. General Information</h2>
+        <p>The FreeGraffa app respects the privacy of its users. This policy explains how we handle data within the application.</p>
+
+        <h2>2. Data Collection</h2>
+        <p>FreeGraffa <strong>does not require account registration</strong> or the provision of personal data (such as name or email). All your preferences, such as liked graphics or the last selected category, are stored <strong>locally on your device</strong> (Local Storage).</p>
+
+        <h2>3. Third-Party Services</h2>
+        <p>The app uses third-party services that may collect information used to identify you:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> For displaying advertisements (including rewarded ads). AdMob may collect advertising IDs to personalize content.</li>
+            <li><strong>Firebase:</strong> Used to deliver real-time content (images and videos).</li>
+        </ul>
+
+        <h2>4. File Storage</h2>
+        <p>The app requests access to your device's storage solely for the purpose of saving downloaded files (JPG images and MP4 videos) to the Documents folder.</p>
+
+        <h2>5. Contact Us</h2>
+        <p>If you have any questions regarding this policy or the app's functionality, you can reach us at:</p>
+        <p><a href="mailto:wargohdenhan@gmail.com">wargohdenhan@gmail.com</a></p>
+
+        <h2>6. Consent</h2>
+        <p>By using the FreeGraffa app, you hereby consent to our Privacy Policy and agree to its terms.</p>
+    </div>
+</div>
+
+<script>
+    function showLang(lang, btn) {
+        // Ukryj wszystkie sekcje
+        document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+        // Usuń klasę active ze wszystkich przycisków
+        document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+        
+        // Pokaż wybraną sekcję i aktywuj przycisk
+        document.getElementById(lang).classList.add('active');
+        btn.classList.add('active');
+    }
+</script>
+
+</body>
+</html>
