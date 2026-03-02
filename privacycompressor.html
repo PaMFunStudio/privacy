@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - PaMCompressor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #ccc;
+            background-color: #0a0a0a;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #141414;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.7);
+            border: 1px solid #2a2a2a;
+        }
+        h1 { 
+            background: linear-gradient(135deg, #f43f5e, #fb7185, #e11d48);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center; 
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h2 { color: #f43f5e; border-bottom: 1px solid #333; padding-bottom: 5px; margin-top: 25px; }
+        .lang-switch {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        button {
+            background: #1a1a1a;
+            color: #f43f5e;
+            border: 1px solid #f43f5e;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 6px;
+            margin: 0 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        button:hover { background: #f43f5e; color: #fff; }
+        .content-section { display: none; }
+        .active { display: block; }
+        footer { text-align: center; margin-top: 30px; font-size: 0.8em; color: #555; border-top: 1px solid #222; padding-top: 10px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        strong { color: #fff; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="lang-switch">
+        <button onclick="showLang('pl')">Polski 🇵🇱</button>
+        <button onclick="showLang('en')">English 🇬🇧</button>
+    </div>
+
+    <div id="pl" class="content-section active">
+        <h1>Polityka Prywatności</h1>
+        <p><strong>Aplikacja:</strong> PaMCompressor</p>
+        <p><strong>Data aktualizacji:</strong> 02.03.2026</p>
+
+        <h2>1. Informacje ogólne</h2>
+        <p>Niniejsza polityka określa zasady przetwarzania danych w aplikacji „PaMCompressor”. Szanujemy Twoją prywatność i nie gromadzimy Twoich osobistych plików wideo na żadnych zewnętrznych serwerach.</p>
+
+        <h2>2. Przetwarzanie plików wideo (FFmpeg)</h2>
+        <p>Wszystkie operacje kompresji i optymalizacji filmów odbywają się <strong>wyłącznie lokalnie na Twoim urządzeniu</strong>. Aplikacja wykorzystuje technologię FFmpeg do przetwarzania danych bez konieczności połączenia z internetem w celu obróbki. Twoje filmy nigdy nie opuszczają Twojego telefonu.</p>
+
+        <h2>3. Uprawnienia do mediów</h2>
+        <p>Aplikacja wymaga uprawnień dostępu do plików wideo (READ_MEDIA_VIDEO / Storage) wyłącznie w celu umożliwienia wybrania filmu do kompresji oraz zapisania gotowego pliku w galerii (album "PamCompressor").</p>
+
+        <h2>4. Reklamy (Google AdMob)</h2>
+        <p>Aplikacja wyświetla reklamy Google AdMob. W związku z tym:</p>
+        <ul>
+            <li>Google może gromadzić identyfikatory reklamowe (AAID) w celu personalizacji treści.</li>
+            <li>Dane te służą do analizy statystyk i dostarczania trafnych reklam.</li>
+            <li>Ustawienia personalizacji reklam możesz zmienić w ustawieniach systemu Android.</li>
+        </ul>
+
+        <h2>5. Kontakt</h2>
+        <p>W razie pytań dotyczących prywatności napisz na: <strong>wargohdenhan@gmail.com</strong></p>
+    </div>
+
+    <div id="en" class="content-section">
+        <h1>Privacy Policy</h1>
+        <p><strong>App:</strong> PaMCompressor</p>
+        <p><strong>Last updated:</strong> 2026-03-02</p>
+
+        <h2>1. General Information</h2>
+        <p>This policy outlines the data processing rules for the "PaMCompressor" application. We respect your privacy and do not collect your personal video files on any external servers.</p>
+
+        <h2>2. Video Processing (FFmpeg)</h2>
+        <p>All video compression and optimization operations are performed <strong>locally on your device</strong>. The app uses FFmpeg technology to process data without requiring an internet connection for editing. Your videos never leave your phone.</p>
+
+        <h2>3. Media Permissions</h2>
+        <p>The app requires video access permissions (READ_MEDIA_VIDEO / Storage) solely to allow you to select a video for compression and to save the processed file to your gallery ("PamCompressor" album).</p>
+
+        <h2>4. Advertising (Google AdMob)</h2>
+        <p>The app displays Google AdMob advertisements. Therefore:</p>
+        <ul>
+            <li>Google may collect advertising identifiers (e.g., AAID) to personalize shown content.</li>
+            <li>This data is used for analytics and delivering relevant ads.</li>
+            <li>You can manage ad personalization settings directly in your Android system settings.</li>
+        </ul>
+
+        <h2>5. Contact</h2>
+        <p>If you have any questions regarding your privacy, please contact us at: <strong>wargohdenhan@gmail.com</strong></p>
+    </div>
+
+    <footer>
+        &copy; 2026 PaMCompressor - PaMFun Studio
+    </footer>
+</div>
+
+<script>
+    function showLang(lang) {
+        document.querySelectorAll('.content-section').forEach(section => {
+            section.classList.remove('active');
+        });
+        document.getElementById(lang).classList.add('active');
+    }
+</script>
+
+</body>
+</html>
